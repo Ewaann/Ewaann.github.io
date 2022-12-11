@@ -1,8 +1,7 @@
 /*Global Styles*/
 
 body{
-    background-color: #619CBA;
-    border: 2px solid black;
+    background-color: white;
 }
 
 header {
@@ -11,14 +10,13 @@ header {
  flex-direction: row;
  justify-content: space-evenly;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- border: 1px solid black;
  margin: 0px 5px;
  padding: 10px;
  background-color: #D0DDEF;
 }
 
 main{
-    background-color: #EDD893;
+    background-color: beige;
 }
 
 footer {
@@ -31,6 +29,7 @@ section{
 }
 
 .navigation{
+    margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -51,7 +50,18 @@ li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.2s linear;
+}
+
+li:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: beige;
+    transition: background-color 0.2s linear;
 }
