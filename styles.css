@@ -6,6 +6,7 @@ body{
 
 header {
  background-color: white;
+ padding: 20px;
 }
 
 main{
@@ -19,4 +20,10 @@ footer {
 section{
      border: 2px solid black;
      padding: 5px;
+}
+
+.headerTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-align: center;
 }
