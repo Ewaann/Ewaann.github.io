@@ -27,6 +27,9 @@ section{
      padding: 5px;
 }
 
+a{
+    text-decoration: none;
+}
 .navigation{
     margin-top: 90px;
     display: flex;
@@ -145,5 +148,5 @@ h3 {
 }
 
 .poster-section{
-    background-color: #D0DDEF; 
+    background-color: beige; 
 }
