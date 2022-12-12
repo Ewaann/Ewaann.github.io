@@ -88,18 +88,6 @@ li:hover{
     background-color: #D0DDEF; 
 }
 
-.coding-section{
-    background-color: #D0DDEF; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
 h2 {
     margin-bottom: 0px;
     margin-top: 20px;
@@ -120,14 +108,25 @@ h3 {
 .mainImage:hover{
     border: 5px solid white;
 }
-
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.coding-section{
+    background-color: #D0DDEF; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.codingImages{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 35%;
+    height: 35%;
+    border: 3px solid black;
+}
+
+  
