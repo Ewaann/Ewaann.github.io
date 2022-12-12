@@ -84,16 +84,19 @@ li:hover{
     justify-content: space-evenly;
 }
 
-.poster-section{
-    background-color: #D0DDEF; 
-}
-
 h2 {
     margin-bottom: 0px;
     margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
 h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .mainImage{
@@ -110,23 +113,37 @@ h3 {
 }
 .coding-section{
     background-color: #D0DDEF; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .codingImages{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
     width: 35%;
     height: 35%;
     border: 3px solid black;
+    margin: 4px;
 }
 
-  
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.poster-section{
+    background-color: #D0DDEF; 
+}
