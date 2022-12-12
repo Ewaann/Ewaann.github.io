@@ -87,12 +87,18 @@ li:hover{
 
 .poster-section{
     background-color: #D0DDEF; 
-
 }
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 h3 {
     font-size: 20px;
+}
+
+.mainImage{
+    align-self: center;
+    width: 35%;
+    height:35%;
+    margin-bottom: 30px;
 }
