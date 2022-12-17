@@ -164,8 +164,7 @@ a:hover{
 .carpContainer{
     display: flex;
     align-content: center;
-    justify-content: center;
-    
+    justify-content: space-evenly;
 }
 
 .carp-images{
@@ -173,8 +172,11 @@ a:hover{
     width:  80%;
     border: 2px solid black;
     display: flex;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
 }
-
+/*
 .carpWithText{
     display: flex;
     flex-direction: column;
