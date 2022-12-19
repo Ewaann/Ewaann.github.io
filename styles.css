@@ -198,7 +198,6 @@ button:active{
 .carpImages{
     width: 30%;
     height: 30%;
-    margin: 4px;
-    padding: 5px; 
-    border: 2px solid black;
+    margin: 20px;
+    padding: 10px; 
 }
