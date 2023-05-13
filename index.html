@@ -1,112 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ewan Sweeney Design Website!</title>
-    <link rel ="stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+
+
+
+    <!-- TITLE GOES HERE -->
+
+    
+
+
 
 </head>
+
 <body>
+  <body style="background-color:#000e1b">
+
+    <!-- this begins the header code -->
 
     <header>
-        <h1>SEMESTER 1</h1>
-          <ul>
-              <div class="navigation">
-                <li><a href="#Home">HOME</a></li>
-                <li><a href="#Coding">CODING</a></li>
-                <li><a href="#Carp">CARP</a></li>
-                <li><a href="#TYPOGRAPHY">TYPOGRAPHY</a></li>
-                <li><a href="#Coding">REFLECTION</a></li>
-              </div>
-          </ul>
-</header>
+
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo200x200.png" alt="Logo" width="106" height="58">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     </header>
 
+    <!-- this ends the header code -->
+
+      
+    <!-- this begins the main code -->
+
     <main>
-        <section class = "barrier"><p></p> </section>
-
-        <section class = "intro-section">
-            <a id="Home"></a>
-            <h2>WELCOME!</h2>
-            <h3>This page should showcase everything I've done in GWDS this semester...</h3>
-            <img class="mainImage" src="images/mainimage.PNG"> 
-        </section>
-
-        <section class = "barrier"><p></p> </section>
-
-        <section class = "coding-section">
-            <a id="Coding"></a>
-            <h2>CODING</h2>
-            <h3>Over the course of five weeks, I followed several worksheets to make two webpages...</h3>
-            <button><a href="https://github.com/Ewaann/">My Github Page</a></button>
-            <div class="section-images">
-                <img class="codingImages" src = images/worksheet1.PNG>
-                <img class="codingImages" src = images/flexbox.PNG>
+      <div class="container-fluid py-3">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="http://placekitten.com/600/300" class="d-block w-100" alt="...">
             </div>
-            <div class="section-images">
-                <button><a href="pizza.html">Pizza.html</a></button>
-                <button><a href="flexbox.html">flexbox.html</a></button>
+            <div class="carousel-item">
+              <img src="https://placedog.net/600/300" class="d-block w-100" alt="...">
             </div>
-
-            <div class="mediacontent">As part of my coursework this semester, I completed five worksheets. Prior to starting the worksheets, despite the fact that I have previous programming experience from my Computer Science A-Level, I was a complete amateur at html due to how different it is from more traditional programming languages such as Python or JavaScript. Using the worksheets, I managed to go from a complete beginner who couldn’t even write a single line of html to a novice website developer familiar with the basics of both html5 and CSS. <br><br>
-                The first worksheet taught me how to set up a html file and how to publish it to GitHub, as well as how to navigate Visual Studio Code (VSC). A particularly useful feature of VSC which I discovered through the worksheets is the ability to split the window in half to show multiple files at once, which ended up being very useful for seeing how my html and CSS files were interacting. <br><br>
-                The second and third worksheets guided me in creating two webpages about pizza and cake. These two worksheets helped me become familiar with the core concepts of html and CSS, such as how lists and images work, as well as classes within CSS. I used the third worksheet in particular as reference for setting up sections in the website you’re reading right now. <br><br>
-                The fourth and fifth worksheets guided me in creating the webpage “Flexbox Rundown”. The fourth worksheet taught me how to use lists to create a navigation bar in the header. However, one issue I found with this method is that, by default, clickable list items become blue and underlined, which doesn’t fit in with the visual design of most websites. To overcome this issue, I set “text-decoration” for all list items to be “none”. In worksheet five, the concept of buttons are introduced, so if I were to do this project again I’d use buttons instead of clickable list items as they appear to be much more powerful and designed for navigation.  <br><br>
-                Overall, I found the worksheets to be a helpful way of teaching myself the basics of html and CSS, particularly how flexbox works.
-                </div>
-        </section>
-        
-        <section class = "barrier"><p></p> </section>
-
-        <section class = "poster-section">
-            <a id="Carp"></a>
-            <h2>CARP</h2>
-            <h3>Below is the poster I made to showcase my knowledge of CARP...</h3>
-            <div class="section-images">
-                <img class="carpImages" src = images/carp.png>
+            <div class="carousel-item">
+              <img src="https://placebear.com/600/300" class="d-block w-100" alt="...">
             </div>
-            <div class="mediacontent">
-                Above is the poster I redesigned for the Bristol Balloon Fiesta. I tried my best to implement CARP the most I could, such as by putting the sponsored logos nearby eachother so the audience could easily tell that all of the logos are sponsored. 
-                I used the bridge in the original image to almost “slice” the picture in half, with the top half containing the main logo for the event as well as the sponsors, and the bottom half of the poster being slightly less busy. To prevent the bottom half of the poster from being too empty though, I added a mini “fold” in the bottom-right hand corner of the poster to give the poster some character. I also added a hot air balloon behind the bridge but in front of the text to give the poster a “3D” feel. 
-                
-                </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-            
+      <div class="container py-3">
+        <h1 class = "display-1 text-center">BRISTOL'S BATTER</h1>
+        <p class = "lead text-center">This makes life so much easier, when there is a framework doing most of the heavy lifting for me.</p>
 
 
+      </div>
 
-        </section>
-
-        <section class = "barrier"><p></p> </section>
-
-        <section class = "typography-section">
-            <a id="#TYPOGRAPHY"></a>
-            <h2>TYPOGRAPHY</h2>
-            <h3>Below are some images I made to show my knowledge of the typographic systems...</h3>
-            <div class="section-images">
-                <img class="typoImages" src = images/ax.png>
-                <img class="typoImages" src = images/radial.png>
-                <img class="typoImages" src = images/random.png>
-                <img class="typoImages" src = images/grid.png>
+      </div>
+        <!-- Beginning of row col -->
+        <div class="container-fluid">
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <img src="images/caterpillar.jpg" class = "img-fluid" alt="">
+              <h4>How Doth the Little Crocodile</h4>
+              <p>How doth the little crocodile Improve his shining tail, And pour the waters of the Nile On every golden scale! How cheerfully he seems to grin, How neatly spreads his claws, And welcomes little fishes in, With gently smiling jaws!</p>
             </div>
+            <div class="col-md-4">
+              <img src="images/fatherwilliam.jpg" class = "img-fluid" alt="">
+              <h4>Father William</h4>
+              <p>"You are old, Father William," the young man said, "And your hair has become very white; And yet you incessantly stand on your head — Do you think, at your age, it is right?"
 
-         <section class = "barrier"><p></p> </section>
+                "In my youth," Father William replied to his son, "I feared it might injure the brain; But now that I'm perfectly sure I have none, Why, I do it again and again."
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/walrus.jpeg" class = "img-fluid" alt="">
+              <h4>The Walrus and the Carpenter</h4>
+              <p>The time has come,' the Walrus said, To talk of many things: Of shoes — and ships — and sealing-wax — Of cabbages — and kings — And why the sea is boiling hot — And whether pigs have wings.'
 
-        <section class = "reflection-section">
-            This is my reflection paragraph.
-        </section>
+                But wait a bit,' the Oysters cried, Before we have our chat; For some of us are out of breath, And all of us are fat!' No hurry!' said the Carpenter. They thanked him much for that.</p>
+            </div>
+          </div>
+        </div>
 
-        <section class = "barrier"><p></p> </section>
+       
+   <!-- End of row col -->
+
+
+        <!-- begin caption -->
+
+       
+
+
+
+        <!-- end caption -->
+
+        <!--some horizontal rules  -->
+
+        <!-- can you find and put some horizontal rules in here? or something else you want to try-->
+
+        <!-- this ends some horizonal rules -->
+
+        <!-- and now the footer -->
+
+        <!-- we were going to do the footer, but I think that needs it's own worksheet. So no footer today. Sorry-mlj -->
+       
+       
+        <!-- this ends the footer -->
+
+
+
 
     </main>
+    <!-- this ends the main code -->
 
-    <footer>
-        <p>
-            
-        </p>
-    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
