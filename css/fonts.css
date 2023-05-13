@@ -1,5 +1,9 @@
-h1,p,nav-item{
+h1,p,h2{
   font-family: 'Inconsolata', monospace;
   font-style: normal;
   color: white;
   }
+
+p{
+  font-size: 30;
+}
