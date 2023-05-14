@@ -1,4 +1,9 @@
-h1,p,h2{
+footer{
+  color: black;
+  background-color: white;
+}
+
+h1,h2{
   font-family: 'Inconsolata', monospace;
   font-style: normal;
   color: white;
@@ -6,4 +11,19 @@ h1,p,h2{
 
 p{
   font-size: 30;
+}
+
+.nav-link{
+  font-family: 'Inconsolata', monospace;
+  color: black;
+  font-size: 70;
+}
+
+.blurred-edge{
+  border-radius: 20%;
+}
+
+footer{
+  color: black;
+  background-color: white;
 }
